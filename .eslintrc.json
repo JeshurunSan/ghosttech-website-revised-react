@@ -1,0 +1,31 @@
+{
+    "extends": "strongloop",
+    "env": {
+        "browser": true,
+        "node": true,
+        "es6": true
+    },
+    "rules": {
+        "comma-dangle": 0,
+        "indent": [2, 4, { "SwitchCase": 1 }],
+        "react/jsx-uses-vars": "error",
+        "react/jsx-uses-react": "error"
+    },
+    "parser": "babel-eslint",
+    "parserOptions": {
+        "sourceType": "module",
+        "ecmaFeatures": {
+            "jsx": true,
+            "experimentalObjectRestSpread": true
+        }
+    },
+    "plugins": [
+        "react"
+    ],
+    "globals": {
+        "test": true,
+        "expect": true,
+        "describe": true,
+        "jest": true
+    }
+}

@@ -1,0 +1,13 @@
+<svg viewBox="0 0 106 95" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <linearGradient x1="1.7631951%" y1="71.8027456%" x2="67.1413706%" y2="71.8027456%" id="linearGradient-2">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="ghost" fill-rule="nonzero">
+            <path d="M53,0 C34.9568572,0 20,14.7 20.0044211,32.84 C19.2841797,51.0053711 17.9113566,54.9896992 15.0276998,63.8407969 C13.1052619,69.7415286 8.09602865,80.1279297 0,95 L66,95 C84.0431428,95 71.0431428,0 53,0 Z" id="Shockwave" fill="url(#linearGradient-2)"></path>
+        </g>
+    </g>
+</svg>

@@ -67,7 +67,7 @@ export default {
             },
         ]
     ],
-    DataandIntegrationEngineers: [
+    DataAndIntegrationEngineers: [
         [
             {
                 name: 'Gilad Beer',

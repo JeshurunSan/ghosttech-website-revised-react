@@ -7,11 +7,11 @@ export default createGlobalStyle`
     ${styledNormalize}
 
     
-    i {
+    h3 {
         color: ${props => props.theme.colourTextHeading};
         width: 100%;
         display: flex;
-        padding: 0 0 20px 20px;
+        padding: 0 0 2rem 2rem;
         font-weight: 700;
         font-size: 2.1rem;
         line-height: 1.3;

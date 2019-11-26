@@ -16,10 +16,10 @@ const WhoAreWe = () => {
                         <Title lines={['Who', 'are', 'we?']} mobileLines={['Who are we?']} offsets={{ lg: [0, 11, 0]}} />
                     </div>
                     <div className="column">
-                        <p>We’ve been developers, tech leads, heads of digital, product designers, architects, founders, advisors, and CTOs.</p>
-                        <p>We’ve run tech businesses and have helped New Zealand’s biggest organisations evolve from legacy systems to new & emerging technologies.</p>
-                        <p>We’ve brought products to life, we’ve also helped figure out where products should go next.</p>
-                        <p>Interested in a demo? Contact our co-founders to book a time to visit us in person at our Auckland CBD studio or to catch up via video conference.</p>
+                    <p>We are a curated team of developers, data engineers, data strategists, tech leads, heads of digital, architects, founders, advisors, and CTOs.</p>
+                    <p>Our collective has run tech businesses and have helped New Zealand’s biggest organisations evolve from legacy systems to new & emerging technologies.</p>
+                    <p>We’ve brought products to life, provided clarity on where products should go next and enabled innovative experiences through technology.</p>
+                    <p>Interested in a demo? Contact our co-founders to book a time to visit us in person at our Auckland CBD studio or to catch up via video conference.</p>
 
                         <Periscope>
                             { Content.People.map((row, rIndex) => {
@@ -39,7 +39,7 @@ const WhoAreWe = () => {
                             { Content.TechLeadershipTeam.map((row, rIndex) => {
                                 return (
                                     <div className="profiles" key={ rIndex }>
-                                        <i>Tech Leadership Team</i>
+                                        <h3>Tech Leadership Team</h3>
                                         { row.map((person, pIndex) =>
                                             <Profile
                                                 key={ pIndex }
@@ -54,7 +54,7 @@ const WhoAreWe = () => {
                             { Content.FullStackDevelopers.map((row, rIndex) => {
                                 return (
                                     <div className="profiles" key={ rIndex }>
-                                        <i> Full Stack Developers</i>
+                                        <h3> Full Stack Developers</h3>
                                         { row.map((person, pIndex) =>
                                             <Profile
                                                 key={ pIndex }
@@ -66,10 +66,10 @@ const WhoAreWe = () => {
                             })}
                         </Periscope>
                         <Periscope>
-                            { Content.DataandIntegrationEngineers.map((row, rIndex) => {
+                            { Content.DataAndIntegrationEngineers.map((row, rIndex) => {
                                 return (
                                     <div className="profiles" key={ rIndex }>
-                                        <i>Data & Integration Engineers</i>
+                                        <h3>Data & Integration Engineers</h3>
                                         { row.map((person, pIndex) =>
                                             <Profile
                                                 key={ pIndex }
